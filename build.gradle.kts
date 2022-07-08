@@ -54,6 +54,8 @@ publishing {
 			groupId = "org.ton"
 			artifactId = "disassembler"
 			version = "0.0.1"
+
+			from(components["java"])
 		}
 	}
 }
