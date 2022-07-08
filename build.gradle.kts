@@ -49,7 +49,6 @@ val javadocJar by tasks.registering(Jar::class) {
 }
 publishing {
 	publications.withType<MavenPublication> {
-		artifact(javadocJar.get())
 		pom {
 			groupId = "org.ton"
 			artifactId = "disassembler"
