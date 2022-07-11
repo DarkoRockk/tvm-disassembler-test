@@ -50,9 +50,9 @@ val javadocJar by tasks.registering(Jar::class) {
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            groupId = "org.ton"
-            artifactId = "disassembler"
-            version = "0.0.1"
+            groupId = "com.github.DarkoRockk"
+            artifactId = "tvm-disassembler-test"
+            version = "master-SNAPSHOT"
 
             from(components["java"])
         }
